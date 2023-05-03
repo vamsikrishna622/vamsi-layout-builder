@@ -1,0 +1,42 @@
+/* Write your CSS here */
+.layout-controller-container {
+  background-color: #475569;
+  width: 100%;
+  padding-left: 32px;
+  padding-bottom: 12px;
+  padding-top: 10px;
+}
+@media screen and (min-width: 768px) {
+  .layout-controller-container {
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-bottom: 16px;
+  }
+}
+.layout-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 700;
+}
+@media (min-width: 768px) {
+  .layout-heading {
+    font-size: 48px;
+  }
+}
+.check-box-container {
+  display: flex;
+  align-items: center;
+}
+.checkbox-label {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #f1f5f9;
+  align-self: center;
+}
+.check-box {
+  height: 20px;
+  width: 20px;
+  margin-right: 12px;
+}

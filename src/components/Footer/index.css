@@ -1,0 +1,21 @@
+/* Write your CSS here */
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cbd5e1;
+  width: 100%;
+  margin: 5px;
+}
+
+.footer {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 700;
+  color: #475569;
+}
+@media (min-width: 768px) {
+  .footer {
+    font-size: 48px;
+  }
+}

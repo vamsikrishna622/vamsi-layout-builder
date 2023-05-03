@@ -1,0 +1,20 @@
+/* Write your CSS here */
+.layout-container {
+  padding-top: 32px;
+  width: 90%;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+  margin: auto;
+}
+@media (min-width: 768px) {
+  .layout-container {
+    width: 90%;
+    padding-top: 48px;
+    margin-top: 32px;
+    max-width: 1140px;
+  }
+}
